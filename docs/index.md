@@ -1,18 +1,11 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /logo.webp
 heroAlt: Logo image
-heroText: Hero Title
-tagline: Hero subtitle
+heroText: AND? or NOT!
+tagline: 乌云阻拦明月涌河湾，他起身独立向荒原
 actionText: Get Started
 actionLink: /guide/
-features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer: MIT Licensed | Copyright © 2021-present Pzoagi & igaozp
 ---
 # Hello Future
@@ -68,20 +61,5 @@ export default {
   }
 }
 ```
-
-{{ 1 + 1 }}
-
-<span v-for="i in 3">{{ i }} </span>
-
-<script setup>
-import { useData } from 'vitepress'
-const { page } = useData()
-</script>
-
-<pre>{{ page }}</pre>
-
-::: v-pre
-`{{ This will be displayed as-is }}`
-:::
 
 
